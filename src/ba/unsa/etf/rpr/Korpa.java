@@ -6,7 +6,7 @@ public class Korpa {
     private ArrayList<Artikl> artikli = new ArrayList<>();
 
     public Artikl[] getArtikli() {
-        Artikl[] artikls = new Artikl[artikli.size()];   // ili ispod new Artikl[artikli.size()]; pa dole onda artikls stavis
+        Artikl[] artikls = new Artikl[artikli.size()];   // ili ispod new Artikl[artikli.size()]
         artikls = artikli.toArray(artikls); // sadrzaj iz arraylist artikli prebacimo u niz artikls
         return artikls;
     }
