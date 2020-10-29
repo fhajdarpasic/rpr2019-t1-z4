@@ -6,13 +6,15 @@ public class Korpa {
     private ArrayList<Artikl> artikli = new ArrayList<>();
 
     public Artikl[] getArtikli() {
-        Artikl[] artikls = new Artikl[50]; // prvo napravimo niz velicine 50
+        Artikl[] artikls = new Artikl[artikli.size()];   // ili ovdje = new Artikl[artikli.size()]; pa dole onda artikls stavis
         artikls = artikli.toArray(artikls); // sadrzaj iz arraylist artikli prebacimo u niz artikls
         return artikls;
     }
 
     public boolean dodajArtikl(Artikl artikl) {
-        return artikli.add(artikl);
+        if(artikli.size()==50) return false;
+        else artikli.add(artikl);
+        return true;
     }
 
     public int dajUkupnuCijenuArtikala() {

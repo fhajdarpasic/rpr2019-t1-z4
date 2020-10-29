@@ -5,7 +5,7 @@ public class Artikl {
     private int cijena;
     private String kod; // svi kodovi razliciti
 
-    public Artikl(String naziv, int cijena, String kod) {
+    public Artikl(String naziv,int cijena,String kod) {
         this.naziv = naziv;
         this.cijena = cijena;
         this.kod = kod;
