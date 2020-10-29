@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b427c84-f5f9-40c2-b719-24c4225869ba" name="Default Changelist" comment="Izmjena metode dajArtike">
-      <change afterPath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Korpa.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Supermarket.class" afterDir="false" />
+    <list default="true" id="0b427c84-f5f9-40c2-b719-24c4225869ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Artikl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Artikl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,23 +60,31 @@
       <option name="project" value="LOCAL" />
       <updated>1603898596863</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Izmjena getera u klasi Korpa i Supermarket">
+      <created>1603961860344</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603961860344</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit. Dodane sve 3 klase, zahtijevane u main-u" />
     <MESSAGE value="Izmjena par metoda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Izmjena par metoda" />
+    <MESSAGE value="Izmjena getera u klasi Korpa i Supermarket" />
+    <option name="LAST_COMMIT_MESSAGE" value="Izmjena getera u klasi Korpa i Supermarket" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1603896359114">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1603896359114" />
-    <state x="409" y="0" key="CommitChangelistDialog2" timestamp="1603961824416">
+    <state x="409" y="0" key="CommitChangelistDialog2" timestamp="1603961859207">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="409" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1603961824416" />
+    <state x="409" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1603961859207" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1603913088629">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -107,10 +109,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1603896088510" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1603898618506">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1603962174347">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603898618506" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603962174347" />
     <state x="91" y="0" key="new project wizard" timestamp="1603912506968">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
