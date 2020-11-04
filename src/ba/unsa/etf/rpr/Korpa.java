@@ -29,13 +29,14 @@ public class Korpa {
         Artikl trazeniArtikl = null;
         int indekstrazenogArtikla=-1;
         for(int i =0;i<artikli.size();i++) {
-            if(artikli.get(i).getNaziv().equals(kod)) {
+            if(artikli.get(i).getKod().equals(kod)) {
                 indekstrazenogArtikla = i;
                 break;
             }
         }
         if(indekstrazenogArtikla!=-1) {
             trazeniArtikl = artikli.get(indekstrazenogArtikla);
+            artikli.remove(trazeniArtikl);
         }
         return trazeniArtikl;
     }

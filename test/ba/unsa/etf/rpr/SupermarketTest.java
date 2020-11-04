@@ -48,7 +48,7 @@ class SupermarketTest {
 
     @Test
     void testIzbaciArtikl() {
-        Korpa k = new Korpa();
+        Supermarket k = new Supermarket();
         for(int i =0;i<10;i++) {
             k.dodajArtikl(new Artikl("Hljeb", 4, "HLJ" + i));
         }
