@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0b427c84-f5f9-40c2-b719-24c4225869ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpr2019-t1-z4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr2019-t1-z4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,24 +104,32 @@
       <option name="project" value="LOCAL" />
       <updated>1603962669877</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Testovi">
+      <created>1604500852280</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604500852280</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit. Dodane sve 3 klase, zahtijevane u main-u" />
     <MESSAGE value="Izmjena par metoda" />
     <MESSAGE value="Izmjena getera u klasi Korpa i Supermarket" />
-    <option name="LAST_COMMIT_MESSAGE" value="Izmjena getera u klasi Korpa i Supermarket" />
+    <MESSAGE value="Testovi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testovi" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1603896359114">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1603896359114" />
-    <state x="409" y="0" key="CommitChangelistDialog2" timestamp="1603962669073">
+    <state x="409" y="0" key="CommitChangelistDialog2" timestamp="1604500851329">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="409" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1603962669073" />
+    <state x="409" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1604500851329" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1604160219164">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -145,10 +154,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1603896088510" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1603962682027">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1604500859244">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603962682027" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1604500859244" />
     <state x="376" y="232" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604498613681">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

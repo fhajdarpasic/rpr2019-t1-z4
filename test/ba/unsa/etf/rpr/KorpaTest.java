@@ -46,6 +46,20 @@ class KorpaTest {
         Assertions.assertEquals(200,k.dajUkupnuCijenuArtikala());
     }
 
+    @Test
+    void testIzbaciArtikl() {
+        Korpa k = new Korpa();
+        for(int i =0;i<10;i++) {
+            k.dodajArtikl(new Artikl("Hljeb", 4, "HLJ" + i));
+        }
+        Artikl izbacen = k.izbaciArtiklSaKodom("HLJ5");
+        /* Provjera izbacenog sa istim takvim */
+        Artikl dodatni = new Artikl("Hljeb",4,"HLJ5");
+        assertEquals(izbacen.getNaziv(),dodatni.getNaziv());
+        assertEquals(izbacen.getCijena(),izbacen.getCijena());
+        assertEquals(izbacen.getKod(),izbacen.getKod());
+    }
+
 
 
 }
