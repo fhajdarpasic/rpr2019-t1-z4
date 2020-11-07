@@ -22,6 +22,7 @@ class SupermarketTest {
         Assertions.assertEquals(26,k.getArtikli().length);
     }
 
+    @Test
     void testDodajArtikl() {
         Supermarket k = new Supermarket();
         k.dodajArtikl(new Artikl("Hljeb",4,"HLJ"));

@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0b427c84-f5f9-40c2-b719-24c4225869ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Korpa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Korpa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Supermarket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Supermarket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/ArtiklTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/ArtiklTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604501493684</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Dodano par testova">
+      <created>1604502405381</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604502405381</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -138,45 +143,46 @@
     <MESSAGE value="Izmjena getera u klasi Korpa i Supermarket" />
     <MESSAGE value="Testovi" />
     <MESSAGE value="Dodani novi testovi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodani novi testovi" />
+    <MESSAGE value="Dodano par testova" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodano par testova" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1603896359114">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1603896359114" />
-    <state x="409" y="0" key="CommitChangelistDialog2" timestamp="1604501492823">
+    <state x="409" y="0" key="CommitChangelistDialog2" timestamp="1604502404448">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="409" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1604501492823" />
+    <state x="409" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1604502404448" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1604160219164">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604160219164" />
-    <state width="1237" height="217" key="GridCell.Tab.0.bottom" timestamp="1604502149678">
+    <state width="1237" height="217" key="GridCell.Tab.0.bottom" timestamp="1604741934502">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="217" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604502149678" />
-    <state width="1237" height="217" key="GridCell.Tab.0.center" timestamp="1604502149678">
+    <state width="1237" height="217" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604741934502" />
+    <state width="1237" height="217" key="GridCell.Tab.0.center" timestamp="1604741934502">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="217" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604502149678" />
-    <state width="1237" height="217" key="GridCell.Tab.0.left" timestamp="1604502149677">
+    <state width="1237" height="217" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604741934502" />
+    <state width="1237" height="217" key="GridCell.Tab.0.left" timestamp="1604741934502">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="217" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604502149677" />
-    <state width="1237" height="217" key="GridCell.Tab.0.right" timestamp="1604502149678">
+    <state width="1237" height="217" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604741934502" />
+    <state width="1237" height="217" key="GridCell.Tab.0.right" timestamp="1604741934502">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="217" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604502149678" />
+    <state width="1237" height="217" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604741934502" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1603896088511">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1603896088510" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1604500859244">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1604502408412">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1604500859244" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1604502408412" />
     <state x="376" y="232" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604498613681">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -189,5 +195,8 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1603912506968" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/rpr2019_t1_z4$All_in_rpr2019_t1_z4.ic" NAME="All in rpr2019-t1-z4 Coverage Results" MODIFIED="1604741934442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

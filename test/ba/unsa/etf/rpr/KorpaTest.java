@@ -22,6 +22,7 @@ class KorpaTest {
         Assertions.assertEquals(26,k.getArtikli().length);
     }
 
+    @Test
     void testDodajArtikl() {
         Korpa k = new Korpa();
         k.dodajArtikl(new Artikl("Hljeb",4,"HLJ"));
